@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <title>/works</title>
+</head>
+
+<body>
+    <div class="space-man">
+        <img class="space-man" src="/assets/shake.png" alt="">
+
+    </div>
+    <div class="button">
+        <a class="btn btn-lg" style="background-color: #e0defa; color: #1b1a5b; font-weight: bold;" href="index.html" role="button">Go Home</a>
+    </div>
+
+
+
+
+
+    <style>
+        body,
+        html {
+            height: 100%;
+            background-image: url(/assets/bG-work.png);
+            height: 100%;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .space-man {
+            position: absolute;
+            top: 23%;
+            left: 44%;
+            height: 420px;
+        }
+        
+        .button {
+            position: absolute;
+            top: 82%;
+            left: 47%;
+        }
+        
+        .space-man:hover {
+            animation: shake 0.82s cubic-bezier(.36, .07, .19, .97) both;
+            transform: translate3d(0, 0, 0);
+            backface-visibility: hidden;
+            perspective: 1000px;
+        }
+        
+        @keyframes shake {
+            10%,
+            90% {
+                transform: translate3d(-1px, 0, 0);
+            }
+            20%,
+            80% {
+                transform: translate3d(5px, 0, 0);
+            }
+            30%,
+            50%,
+            70% {
+                transform: translate3d(-4px, 0, 0);
+            }
+            40%,
+            60% {
+                transform: translate3d(4px, 0, 0);
+            }
+        }
+    </style>
+
+
+</body>
+
+</html>
