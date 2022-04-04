@@ -167,7 +167,7 @@
     }
     
     .card-1:hover {
-        border-radius: 40px;
+        border-radius: 20px;
         box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.205);
         background-color: #fbfeff!important;
         transition: 1s;
@@ -233,7 +233,7 @@
     }
     
     #imgstack img {
-        border-radius: 30px;
+        border-radius: 10px;
         width: 100%;
         max-height: 100%;
         box-shadow: 0px 10px 30px rgba(57, 56, 61, 0.005);
