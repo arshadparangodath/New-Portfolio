@@ -81,52 +81,7 @@
     .link-devider {
         color: #013440;
     }
-    /* Scroll Down */
     
-    .scroll-down {
-        cursor: pointer;
-        border: 2px solid #b8b8b8;
-        border-radius: 20px;
-        bottom: 60px;
-        height: 40px;
-        left: 0;
-        position: absolute;
-        margin: 0 auto;
-        right: 0;
-        width: 20px;
-    }
-    
-    .scroll-down::before {
-        animation: scrollDownAnimation 2s infinite;
-        background-color: #b8b8b8;
-        border-radius: 100%;
-        content: '';
-        height: 6px;
-        left: 0;
-        margin: 0 auto;
-        position: absolute;
-        right: 0;
-        top: 10px;
-        width: 6px;
-    }
-    
-    @keyframes scrollDownAnimation {
-        0% {
-            opacity: 0;
-            transform: translate(0, 0);
-        }
-        40% {
-            opacity: 1;
-        }
-        80% {
-            opacity: 0;
-            transform: translate(0, 20px);
-        }
-        100% {
-            opacity: 0;
-        }
-    }
-    /* Scroll Down */
     
     .work_section {
         padding-top: 30rem;
